@@ -1,0 +1,52 @@
+* {
+    background-color: palevioletred;
+}
+
+.tina1 {
+    background-color: pink;
+    padding: 70px;
+    margin-top: 2%;
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+.tina2 {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.tina1p {
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: solid #ffe17d 5px;
+}
+
+.tina2p {
+    border-radius: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    text-align: center;
+}
+
+.list {
+    text-align: right;
+    font-size: 15px
+}
+.list li {
+    text-align-right;
+    list-style-position:inside;
+}
+
+.p-4 {
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    width: 70%;
+}
