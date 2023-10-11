@@ -1,36 +1,41 @@
-* {
+body {
     background-color: palevioletred;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
+.navbar {
+    background-color:#ffe17d;
+}
+
+.navbar-brand {
+    display:flex;
+    align-items: center;
+    color: #fff; 
+}
+
+/*main heading*/
 .tina1 {
     background-color: pink;
     padding: 70px;
-    font-size: 72px;
+    margin-top: 2%;
+    font-size: 60px;
     display: flex;
     justify-content: center;
-    align-items: center;
-    row
-}
-
-.tina2 {
-    background-color: whitesmoke;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
+    align-items: center;    
 }
 
 .tina1p {
+    text-align: center; /*alligns subheading*/
     font-style: italic;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: medium;
+    font-size: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
+    border-bottom: 5px solid #ffe17d;
+    padding: 20px 0; /* add padding to the top and bottom */
 }
 
-.tina2p {
-    border-radius: 70px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: medium;
+.col {
+    display: flex;
+    justify-content: space-between;
 }
