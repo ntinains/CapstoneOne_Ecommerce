@@ -68,12 +68,14 @@ body {
 }*/
 
 .list li {
-    list-style-position:inside;
+    list-style-position: inside;
 }
+
 div.list {
-    text-align:center;
+    text-align: center;
 }
+
 ul.myUL {
-    display:inline-block;
-    text-align:left;
+    display: inline-block;
+    text-align: left;
 }

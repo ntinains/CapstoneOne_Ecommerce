@@ -41,12 +41,5 @@ body {
 .col {
     display: flex;
     justify-content: space-between;
-    text-align:end;
-}
-
-.list li {
-    justify-content: center;   
-}
-li {
-    text-align: center;
+    text-align: end;
 }
