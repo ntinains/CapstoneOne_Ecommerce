@@ -44,11 +44,13 @@ Youtube.com
 Stackoverflow.com
 Google.com
 
-.........
-
 ## Look at my project below: 
 
-
+![homepage](https://github.com/ntinains/CapstoneOne_Ecommerce/assets/146864042/e2e803fd-284b-4a76-8d81-54bde1de84d5)
+![checkout](https://github.com/ntinains/CapstoneOne_Ecommerce/assets/146864042/f7695c95-2807-4750-9a89-58aec3e71329)
+.........![registration](https://github.com/ntinains/CapstoneOne_Ecommerce/assets/146864042/68edb4e3-b978-4408-9a5c-fd843f2a5349)
+![products](https://github.com/ntinains/CapstoneOne_Ecommerce/assets/146864042/3f864d1c-e921-4a2f-bed4-ee937798df96)
+![login](https://github.com/ntinains/CapstoneOne_Ecommerce/assets/146864042/1a259856-d9bb-4dd5-bc1d-ffbdfbf1ecce)
 
 
 * 
