@@ -46,11 +46,11 @@ Google.com
 
 ## Look at my project below: 
 
-![homepage](https://github.com/ntinains/CapstoneOne_Ecommerce/assets/146864042/e2e803fd-284b-4a76-8d81-54bde1de84d5)
-![checkout](https://github.com/ntinains/CapstoneOne_Ecommerce/assets/146864042/f7695c95-2807-4750-9a89-58aec3e71329)
-.........![registration](https://github.com/ntinains/CapstoneOne_Ecommerce/assets/146864042/68edb4e3-b978-4408-9a5c-fd843f2a5349)
-![products](https://github.com/ntinains/CapstoneOne_Ecommerce/assets/146864042/3f864d1c-e921-4a2f-bed4-ee937798df96)
-![login](https://github.com/ntinains/CapstoneOne_Ecommerce/assets/146864042/1a259856-d9bb-4dd5-bc1d-ffbdfbf1ecce)
+![homepage](https://github.com/ntinains/CapstoneOne_Ecommerce/assets/146864042/76e5ed71-4b0e-400f-ba73-ccbbfcb7e543)
+![registration](https://github.com/ntinains/CapstoneOne_Ecommerce/assets/146864042/673bddc9-dacb-4eb5-9273-d1dff6fbe1d1)
+![login](https://github.com/ntinains/CapstoneOne_Ecommerce/assets/146864042/28315a4e-e01d-4021-93f4-048aa3144f80)
+![products](https://github.com/ntinains/CapstoneOne_Ecommerce/assets/146864042/20b9b5f3-7f1f-4fc9-9378-4a30bfc993ee)
+![checkout](https://github.com/ntinains/CapstoneOne_Ecommerce/assets/146864042/d4e3e5f8-23d1-4775-b336-a93df67e8677)
 
 
 * 
