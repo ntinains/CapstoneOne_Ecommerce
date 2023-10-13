@@ -4,7 +4,7 @@ Application Development: Front=end Path Project 1
 
 ## Description
 
-In this project, I showcase my newly learned skills of HTML, CSS & JS by creating a E-commerce website. I utilized Bootstrap and JS for responsive, flex and styling tools. I have made 5 pages consisting of my home page, registration, sign-up, products and check-out page. For my work, I have started building out the framework using Visual Studio Code, developing a theme and then building my code around that theme for a fully-functioning display website. I have honed my fresh skills, in addition with Bootstrap and CSS to fully build out the 5 pages that is typically seen on a E-commerce site. 
+In this project, I showcase my newly learned skills of HTML, CSS & JS by creating a E-commerce website. I utilized Bootstrap and JS for responsive, flex and styling tools. I have made 5 pages consisting of my home page, registration, sign-up, products and check-out page. For my work, I have started building out the framework using Visual Studio Code, developing a theme and then building my code around that theme for a fully-functioning display website. I have honed my fresh skills, in addition with Bootstrap and CSS to fully build out the visual display that is typically seen on a E-commerce site. 
 
 ## Description
 
