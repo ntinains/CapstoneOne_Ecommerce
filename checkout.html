@@ -4,13 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link 
-        rel="stylesheet" 
-        href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css" />
-    <link 
-        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" 
-        rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" 
-        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="/css/checkout.css">
 
     <Title>Sally's Ice Cream Wonderland!</Title>
@@ -21,84 +17,132 @@
     <nav class="navbar navbar-expand-lg fixed-top" style="background-color: #ffe17d;">
         <div class="container-fluid">
             <a class="navbar-brand" href="./index.html">
-                <img
-                    src="./images/swirlicon.png"
-                    alt="Ice cream cone"
-                    width="60"
-                    height="48">
-                    " Sally's Ice Cream Wonderland "
-                </a>
-            <button
-                class="navbar-toggler"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#navbarNavDropdown"
-                aria-controls="navbarNavDropdown"
-                aria-expanded="false"
-                aria-label="Toggle navigation">
+                <img src="./images/swirlicon.png" alt="Ice cream cone" width="60" height="48">
+                " Sally's Ice Cream Wonderland "
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-                
-                <div class="collapse navbar-collapse show" id="navbarNavDropdown">
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="./signup.html">Registration</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="./service.html">Products</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="./checkout.html">Checkout</a>
-                        </li>
-                        <li> 
-                            <li class="nav-item">
-                                <a class="nav-link" href="./login.html">Login</a>
-                            </li>
-                        </li>
-                    </ul>
+
+            <div class="collapse navbar-collapse show" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="./signup.html">Registration</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./service.html">Products</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./checkout.html">Checkout</a>
+                    </li>
+                    <li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./login.html">Login</a>
+                    </li>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12"> <!--stacking-->
+                <h1 class="tina1">Sally's Ice Cream Shop</h1>
+            </div>
+            <span class="tina1p">Quality products made from quality ingredients!</span>
+        </div>
+
+
+        <main>
+            <div class="row">
+                <div class="col-75">
+                    <div class="container">
+
+                        <div class="row">
+                            <div class="col-50">
+                                <h3>Billing Address</h3>
+                                <label for="fname"><i class="fa fa-user"></i> Full Name</label>
+                                <input type="text" id="fname" name="firstname" placeholder="John M. Doe">
+                                <label for="email"><i class="fa fa-envelope"></i> Email</label>
+                                <input type="text" id="email" name="email" placeholder="john@example.com">
+                                <label for="adr"><i class="fa fa-address-card-o"></i> Address</label>
+                                <input type="text" id="adr" name="address" placeholder="542 W. 15th Street">
+                                <label for="city"><i class="fa fa-institution"></i> City</label>
+                                <input type="text" id="city" name="city" placeholder="New York">
+
+                                <div class="row">
+                                    <div class="col-50">
+                                        <label for="state">State</label>
+                                        <input type="text" id="state" name="state" placeholder="NY">
+                                    </div>
+                                    <div class="col-50">
+                                        <label for="zip">Zip</label>
+                                        <input type="text" id="zip" name="zip" placeholder="10001">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-50">
+                                <h3>Payment</h3>
+                                <label for="cname">Name on Card</label>
+                                <input type="text" id="cname" name="cardname" placeholder="John More Doe">
+                                <label for="ccnum">Credit card number</label>
+                                <input type="text" id="ccnum" name="cardnumber" placeholder="1111-2222-3333-4444">
+                                <label for="expmonth">Exp Month</label>
+                                <input type="text" id="expmonth" name="expmonth" placeholder="September">
+
+                                <div class="row">
+                                    <div class="col-50">
+                                        <label for="expyear">Exp Year</label>
+                                        <input type="text" id="expyear" name="expyear" placeholder="2018">
+                                    </div>
+                                    <div class="col-50">
+                                        <label for="cvv">CVV</label>
+                                        <input type="text" id="cvv" name="cvv" placeholder="352">
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <label>
+                            <input type="checkbox" checked="checked" name="sameadr"> Shipping address same as billing
+                        </label>
+                        <input type="submit" value="Continue to checkout" class="btn">
+                        </form>
+                    </div>
+                </div>
+
+                <div class="col-25">
+                    <div class="container">
+                        <h4>Cart
+                            <span class="price" style="color:black">
+                                <i class="fa fa-shopping-cart"></i>
+                                <b>4</b>
+                            </span>
+                        </h4>
+                        <p></p>Peachy Bubble Bliss<span class="price">$10</span></p> <img
+                            src="./images/no-churn-peach-ice-cream.webp" width="100" height="100">
+                        <p><a href="#">Strawberry Sunset</a> <span class="price">$8</span></p> <img
+                            src="./images/Mango-Strawberry-Banana-Ice-Cream.jpg" width="100" height="100">
+                        <p><a href="#">Lavender Earl's Delight</a> <span class="price">$8</span></p> <img
+                            src="./images/Lavender-Earl-Grey-Ice-Cream00818.webp" width="100" height="100">
+                        <p><a href="#">PistaCocoa Dream</a> <span class="price">$8</span></p> <img
+                            src="./images/Pistachio-Chocolate-Chunk-Ice-Cream-2.2.jpg" width="100" height="100">
+                        <hr>
+                        <p>Total <span class="price" style="color:black"><b>$34</b></span></p>
+                    </div>
                 </div>
             </div>
-        </nav>
+        </main>
 
-        </div>  
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-16"> <!--stacking-->
-                    <h1 class="tina1">Sally's Ice Cream Shop</h1> </div>
-                    <span class="tina1p">Quality products made from quality ingredients!</span>
-                </div> 
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+            crossorigin="anonymous"></script>
 
-    <div class="p-4">
-        <div style="clear:both">
-            <img 
-                src="images/icecreamrow.jpg" 
-                alt="Homemade Icecream"
-                width="500px"
-                position: center;>
-        </div>
-<main>
-    <div class="tina2p">
-        <h2>About our organization</h2>
-        <p> 
-        We are a family business, taking the world by storm in 2021. Our purpose was finding quality dessert products to satisfy our sweet cravings and from our experiments, we created and came up with Sally's Ice Cream Shop. Not only are we keeping our sweet secrets to ourselves but we are sharing it with the world. We pride ourselves in providng high-quality ingredients to provide an deliicious, yet healthy choice for our ice-cream products. </p>
-        <p>From starting at a small mom and pop shop in Tennessee, we have successfully expanded to a number of states. With our new business structure, customers are now able to order and get products shipped anywhere in the United States. We hope to continue providing consistent quality and ingredients to our customers.  </p>
-    </div>
-
-    <div class="list">
-        <h5>Our Physical Store Locations</h5>
-            <ul>
-                <li>123 Main Street, New York, NY </li>
-                <li>4567 Toggle Rd., San Fransisco, CA </li>
-                <li>8910 Wonderland St., Las Vegas, NV</li>
-                <li>1112 Dry Rd., Dallas, TX</li>
-                <li>1314 Clancy St., Atlanta, GA 30319</li>
-            </ul>
-    </div>
-</main>
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-
-    <footer> &copy; 2023 Tina Ice Cream, Inc. All rights reserved </footer>
+        <footer> &copy; 2023 Tina Ice Cream, Inc. All rights reserved </footer>
 </body>
 
 

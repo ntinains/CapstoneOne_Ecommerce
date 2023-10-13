@@ -1,16 +1,17 @@
 body {
     background-color: palevioletred;
     font-family: Arial, Helvetica, sans-serif;
+    display: flex;
 }
 
 .navbar {
-    background-color:#ffe17d;
+    background-color: #ffe17d;
 }
 
 .navbar-brand {
-    display:flex;
+    display: flex;
     align-items: center;
-    color: #fff; 
+    color: #000000;
 }
 
 /*main heading*/
@@ -21,21 +22,31 @@ body {
     font-size: 60px;
     display: flex;
     justify-content: center;
-    align-items: center;    
+    align-items: center;
 }
 
 .tina1p {
-    text-align: center; /*alligns subheading*/
+    text-align: center;
+    /*alligns subheading*/
     font-style: italic;
     font-size: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
     border-bottom: 5px solid #ffe17d;
-    padding: 20px 0; /* add padding to the top and bottom */
+    padding: 20px 0;
+    /* add padding to the top and bottom */
 }
 
 .col {
     display: flex;
     justify-content: space-between;
+    text-align:end;
+}
+
+.list li {
+    justify-content: center;   
+}
+li {
+    text-align: center;
 }

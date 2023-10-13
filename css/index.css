@@ -1,5 +1,17 @@
-* {
+body {
     background-color: palevioletred;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+}
+
+.navbar {
+    background-color: #ffe17d;
+}
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+    color: #000000;
 }
 
 .tina1 {
@@ -9,13 +21,13 @@
     font-size: 60px;
     display: flex;
     justify-content: center;
-    align-items: center;    
+    align-items: center;
 }
 
 .tina2 {
     display: flex;
     justify-content: center;
-    align-items:center;
+    align-items: center;
 }
 
 .tina1p {
@@ -35,18 +47,33 @@
     text-align: center;
 }
 
-.list {
-    text-align: right;
-    font-size: 15px
+/*.h5 {
+    list-style-position: inside;
+    align-items: right;
+
 }
+.list {
+    font-size: 16px;
+}
+
 .list li {
-    text-align-right;
-    list-style-position:inside;
+    list-style-position:outside;
+    margin-left: 700px;
 }
 
 .p-4 {
-    display:block;
-    margin-left:auto;
-    margin-right:auto;
-    width: 70%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}*/
+
+.list li {
+    list-style-position:inside;
+}
+div.list {
+    text-align:center;
+}
+ul.myUL {
+    display:inline-block;
+    text-align:left;
 }

@@ -1,7 +1,20 @@
-* {
+body {
     background-color: palevioletred;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
 }
 
+.navbar {
+    background-color: #ffe17d;
+}
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+/*main heading*/
 .tina1 {
     background-color: pink;
     padding: 70px;
@@ -9,44 +22,101 @@
     font-size: 60px;
     display: flex;
     justify-content: center;
-    align-items: center;    
-}
-
-.tina2 {
-    display: flex;
-    justify-content: center;
-    align-items:center;
+    align-items: center;
 }
 
 .tina1p {
+    text-align: center;
+    /*alligns subheading*/
     font-style: italic;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: x-large;
+    font-size: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
-    border-bottom: solid #ffe17d 5px;
+    border-bottom: 5px solid #ffe17d;
+    padding: 20px 0;
+    /* add padding to the top and bottom */
 }
 
-.tina2p {
-    border-radius: 70px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: medium;
-    text-align: center;
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin: 0 -16px;
 }
 
-.list {
-    text-align: right;
-    font-size: 15px
-}
-.list li {
-    text-align-right;
-    list-style-position:inside;
+.col-25 {
+    -ms-flex: 25%;
+
+    flex: 25%;
 }
 
-.p-4 {
-    display:block;
-    margin-left:auto;
-    margin-right:auto;
-    width: 70%;
+.col-50 {
+    -ms-flex: 50%;
+
+    flex: 50%;
+}
+
+.col-75 {
+    -ms-flex: 75%;
+
+    flex: 75%;
+}
+
+.col-25,
+.col-50,
+.col-75 {
+    padding: 0 16px;
+}
+
+.container {
+    background-color: #f2f2f2;
+    padding: 5px 20px 15px 20px;
+    border: 1px solid lightgrey;
+    border-radius: 3px;
+}
+
+input[type=text] {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+label {
+    margin-bottom: 10px;
+    display: block;
+}
+
+/*icon effects */
+.icon-container {
+    margin-bottom: 20px;
+    padding: 7px 0;
+    font-size: 24px;
+}
+
+/* Button stype*/
+.btn {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px;
+    margin: 10px 0;
+    border: none;
+    width: 100%;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 17px;
+}
+
+/* button hover effect*/
+.btn:hover {
+    background-color: #45a049;
+}
+
+/*cart style*/
+span.price {
+    float: right;
+    color: grey;
 }
