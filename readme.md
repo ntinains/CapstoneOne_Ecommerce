@@ -18,7 +18,7 @@ Once there, download the zipfile for the code and then you would be able to open
 ## Help
 
 If you have any advise or comments to make my page look more clean, sophisticated or commerically ready, please feel free to pull-request or comment.
-```
+
 
 ## Authors
 
@@ -52,5 +52,3 @@ Google.com
 ![products](https://github.com/ntinains/CapstoneOne_Ecommerce/assets/146864042/20b9b5f3-7f1f-4fc9-9378-4a30bfc993ee)
 ![checkout](https://github.com/ntinains/CapstoneOne_Ecommerce/assets/146864042/d4e3e5f8-23d1-4775-b336-a93df67e8677)
 
-
-* 
